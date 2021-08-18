@@ -13,7 +13,6 @@ var numberSunnyDays = 0;
  */
 function sunnyDayMessage(isSunny, numberSunnyDays) {
     if (isSunny == true) {
-        numberSunnyDays = 1 + numberSunnyDays;
         return "Hi! It is sunny Today. It has been sunny for " + numberSunnyDays + " days in a row.";
     }
     else {
